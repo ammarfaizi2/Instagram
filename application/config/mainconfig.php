@@ -1,0 +1,21 @@
+<?php
+defined('BASEPATH') OR exit('No direct script access allowed');
+$config['mysql_host'] = 'localhost';
+$config['mysql_username'] = 'root';
+$config['mysql_password'] = '';
+$config['mysql_database'] = 'insta';
+$config['mysql_driver'] = 'mysqli';
+$config['mysql_charset'] = 'utf8';
+$config['mysql_dbcollat'] = 'utf8_general_ci';
+$config['base_js'] = 'assets/js';
+$config['base_css'] = 'assets/css';
+$config['base_plugins'] = 'assets/plugins';
+$config['base_images'] = 'assets/images';
+$config['base_fonts'] = 'assets/font-awesome';
+$config['other_base'] = 'assets/fonts';
+$config['email_author'] = 'victoralienware@gmail.com';
+$config['instagram_author'] = 'windtheace';
+$config['twitter_author'] = 'windtheace';
+$config['userid_author'] = '1466795330';
+$config['limit'] = 10;
+$config['title'] = 'Dunia Online';
