@@ -33,7 +33,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');?>
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-		  <?=anchor('#', 'SociaBuzz', array('class' => 'navbar-brand'))?>
+		  <?=anchor('#', 'RedAngel Magetan', array('class' => 'navbar-brand'))?>
         </div>
         <div id="navbar" class="navbar-collapse collapse">
           <ul class="nav navbar-nav">
@@ -55,34 +55,34 @@ defined('BASEPATH') OR exit('No direct script access allowed');?>
 						<h2 class="text-center">PERATURAN</h2><hr>
                                         <ol>
                                             <li>
-                                                Jangan mengunfollow sesama pengguna layanan ini.Cukup mention mereka untuk follback
+                                                Jangan mengunfollow sesama pengguna layanan ini. Cukup mention mereka untuk follback
                                             </li>
                                             <li>
-												Jangan mem-Private akun anda,jika anda mem-Private akun anda,followers/like tidak akan bertambah.
+												Jangan mem-Private akun anda, jika anda mem-Private akun anda, followers/like tidak akan bertambah.
                                             </li>
                                             <li>
-												Layanan ini gratis,mohon gunakan layanan ini dengan bijak
+												Layanan ini gratis, mohon gunakan layanan ini dengan bijak
                                             </li>
                                             <li>
                                                 Use this tools at your own risk
                                             </li>
                                             <li>
-                                                Ingat kami tidak pernah menyimpan password anda!,Kami hanya memerlukan password anda pada saat login untuk menghubungkan akun anda dengan API Instagram.
+                                                Ingat kami tidak pernah menyimpan password anda! Kami hanya memerlukan password anda pada saat login untuk menghubungkan akun anda dengan API Instagram.
                                             </li>
                                         </ol><hr>
 						<h2 class="text-center">BANTUAN</h2><hr>
                                         <ol>
                                             <li>
                                                 <h4>Bagaimana Cara Berhenti Dari Layanan Ini?</h4>
-												<p>Cukup mengganti password instagram anda,dan otomatis anda berhenti dari layanan ini</p>
+												<p>Cukup mengganti password instagram anda, dan otomatis anda berhenti dari layanan ini</p>
                                             </li>
                                             <li>
 												<h4>Kenapa Following Saya Ikut Bertambah?</h4>
-												<p>Karena layanan ini adalah tukar-menukar followers.Anda mendapatkan followers anda juga mendapatkan following.Anda dapat memention mereka untuk melakukan follback :)</p>
+												<p>Karena layanan ini adalah tukar-menukar followers. Anda mendapatkan followers anda juga mendapatkan following. Anda dapat memention mereka untuk melakukan follback :)</p>
                                             </li>
                                             <li>
-												<h4>Saya Ingin Memberi Masukan terhadap layanan ini,kemana saya harus mengirimnya?</h4>
-												<p>Silahkan klik Menu 'Hubungi Kami' diatas,atau bisa juga mention instagram kami @rian_arts. Terima Kasih - </p>
+												<h4>Saya Ingin Memberi Masukan terhadap layanan ini, kemana saya harus mengirimnya?</h4>
+												<p>Silahkan klik Menu 'Hubungi Kami' diatas,atau bisa juga mention instagram kami @ammarfaizi12. Terima Kasih - </p>
                                             </li>
                                         </ol><hr>
 					</div>
