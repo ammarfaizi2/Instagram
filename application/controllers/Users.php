@@ -1,36 +1,43 @@
-<?php
-defined('BASEPATH') OR exit('No direct script access allowed');
-set_time_limit(0);
-ignore_user_abort(1);
+<?php defined('BASEPATH') OR exit('No direct script access allowed'); set_time_limit(0); ignore_user_abort(1);
+
 class Users extends CI_Controller {
-	public function __construct(){
+	public function __construct() {
 		parent::__construct();
 		$this->load->library('session');
 		$this->load->database();
 		$this->load->config('mainconfig');
 	}
-	public function index(){
+	
+	public function index() {
 		$data['list_config'] = $this->config->config;
-		if(!$this->session->userdata('credentials')):
-			$data['all_member'] = $this->db->get('instagram')->num_rows();
-			$data['allowed'] = 0;
+
+		if (!$this->session->userdata('credentials')):
+				$data['all_member'] = $this->db->get('instagram')->num_rows();
+				$data['allowed'] = 0;
+	
 		else:
-			$this->load->model('instaloader');
-			$data['user_data'] = $this->session->userdata('credentials');
-			$get_user = $this->instaloader->proccess('Haqny-PC 11/23.01.78.64 Recognized as Mozilla(AppleWebKit SPA)', 'users/'.$data['user_data']['user_id'].'/info/');
-			$data['user_data']['account'] = json_decode($get_user[1]);
-			$connect = $this->instaloader->create($data['user_data']['cookie'], $data['user_data']['useragent'], $data['user_data']['device_id']);
-			if(!$connect):
-				$this->db->where('id', $data['user_data']['user_id'])->update('instagram', array('verifikasi' => 0));
-				$data['news'] = 0;
-			else:
-				$this->db->where('id', $data['user_data']['user_id'])->update('instagram', array('verifikasi' => 1));
-			endif;
+
+				$this->load->model('instaloader');
+				$data['user_data'] = $this->session->userdata('credentials');
+				$get_user = $this->instaloader->proccess('Haqny-PC 11/23.01.78.64 Recognized as Mozilla(AppleWebKit SPA)', 'users/'.$data['user_data']['user_id'].'/info/');
+				$data['user_data']['account'] = json_decode($get_user[1]);
+				$connect = $this->instaloader->create($data['user_data']['cookie'], $data['user_data']['useragent'], $data['user_data']['device_id']);
+				
+				if (!$connect):
+					$this->db->where('id', $data['user_data']['user_id'])->update('instagram', array('verifikasi' => 0));
+					$data['news'] = 0;
+				else:
+					$this->db->where('id', $data['user_data']['user_id'])->update('instagram', array('verifikasi' => 1));
+				endif;
+			
 			$data['user'] = $this->db->get_where('instagram', array('id' => $data['user_data']['user_id']))->row();
 			$data['allowed'] = 1;
+
 		endif;
+		
 		$this->load->view('index', $data);
 	}
+
 	public function login(){
 		if(!$this->session->userdata('credentials')):
 			if(!$this->input->post('username')||!$this->input->post('password')) $ret = json_encode(array('result' => 0, 'content' => 'DSMOS has arrived')); else{

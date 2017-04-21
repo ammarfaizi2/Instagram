@@ -13,14 +13,11 @@ defined('BASEPATH') OR exit('No direct script access allowed');?>
     <link href="<?=base_url($list_config['base_css'])?>/bootstrap.min.css" rel="stylesheet">
     <link href="<?=base_url($list_config['base_css'])?>/main-style.css" rel="stylesheet">
     <link href="<?=base_url($list_config['base_fonts'])?>/css/font-awesome.min.css" rel="stylesheet" type="text/css">
-<? if($allowed) print '
+<?php 
+if ($allowed) print '
 	<style>
-	body {
-	  padding-top: 80px;
-	}
-	.sorry {
-	margin-bottom:5px;
-	}
+	body {padding-top: 80px;}
+	.sorry {margin-bottom:5px;}
 	</style>'; ?>
     <!--[if lt IE 9]>
       <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
@@ -44,18 +41,18 @@ defined('BASEPATH') OR exit('No direct script access allowed');?>
             <li class="active"><?=anchor('/', '<i class="glyphicon glyphicon-home"></i> Dashboard')?></li>
             <li><?=anchor('peraturan', '<i class="fa fa-info-circle"></i> Peraturan')?></li>
             <li><?=anchor('kontak', '<i class="glyphicon glyphicon-earphone"></i> Hubungi Kami')?></li>
-			<? if(!$allowed) print '<li>'.anchor('masuk', '<i class="glyphicon glyphicon-off"></i> Masuk').'</li>'; ?>
+			<?php if(!$allowed) print '<li>'.anchor('masuk', '<i class="glyphicon glyphicon-off"></i> Masuk').'</li>'; ?>
           </ul>
-		  <? if($allowed): ?>
+		  <?php if($allowed): ?>
           <ul class="nav navbar-nav navbar-right">
 			<li><?=anchor('#', '<i class="fa fa-credit-card"></i> Poin: '.$user->poin, array('id' => 'point'))?></li>
 			<li><?=anchor('users/logout', '<i class="glyphicon glyphicon-off"></i> LogOut')?></li>
 		  </ul>
-		 <? endif; ?>
+		 <?php endif; ?>
         </div>
       </div>
     </nav>
-<? if(!$allowed): ?>
+<?php if(!$allowed): ?>
     <div id="myCarousel" class="carousel slide" data-ride="carousel">
       <ol class="carousel-indicators">
         <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
@@ -142,7 +139,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');?>
     <div class="container">
 	<hr>
 	</div>
-<? else: ?>
+<?php else: ?>
     <div class="container">    
         <div class="col-md-12">                    
             <div class="panel panel-info highlight-one text-center">
@@ -229,7 +226,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');?>
 			</div>
 		</div>
 	</div>
-<? endif; ?>
+<?php endif; ?>
 </script>
     <footer class="footer">
       <div class="container">
