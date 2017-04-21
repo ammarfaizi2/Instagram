@@ -219,9 +219,6 @@ array(
 $ret['content'].=" id={".json_encode($id)."} jumlah = ".$jum;
 $ret = json_encode($ret);*/
 
-file_put_contents("aaa.txt",$ret);
-
-
 $this->output->set_content_type('application/json')->set_output($ret);
 
 
