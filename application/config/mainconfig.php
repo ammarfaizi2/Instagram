@@ -1,9 +1,9 @@
 <?php
 defined('BASEPATH') OR exit('No direct script access allowed');
 $config['mysql_host'] = 'localhost';
-$config['mysql_username'] = 'root';
-$config['mysql_password'] = '';
-$config['mysql_database'] = 'insta';
+$config['mysql_username'] = 'kemageta_red';
+$config['mysql_password'] = 'triosemut123';
+$config['mysql_database'] = 'kemageta_red';
 $config['mysql_driver'] = 'mysql';
 $config['mysql_charset'] = 'utf8';
 $config['mysql_dbcollat'] = 'utf8_general_ci';
