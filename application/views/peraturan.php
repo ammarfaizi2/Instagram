@@ -9,7 +9,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');?>
     <meta name="description" content="Situs Penambah Followers & Like BEBAS Spam & Iklan">
     <meta name="author" content="Absorb Team">
     <link rel="icon" href="<?=base_url($list_config['base_images'])?>/favicon.ico">
-    <title>SociaBuzz</title>
+    <title>RedAngel Magetan</title>
     <link href="<?=base_url($list_config['base_css'])?>/bootstrap.min.css" rel="stylesheet">
     <link href="<?=base_url($list_config['base_css'])?>/main-style.css" rel="stylesheet">
     <link href="<?=base_url($list_config['base_fonts'])?>/css/font-awesome.min.css" rel="stylesheet" type="text/css">
