@@ -9,7 +9,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');?>
     <meta name="description" content="Situs Penambah Followers & Like BEBAS Spam & Iklan">
     <meta name="author" content="Absorb Team">
     <link rel="icon" href="<?=base_url($list_config['base_images'])?>/favicon.ico">
-    <title>SociaBuzz</title>
+    <title>Redangel Magetan</title>
     <link href="<?=base_url($list_config['base_css'])?>/bootstrap.min.css" rel="stylesheet">
     <link href="<?=base_url($list_config['base_css'])?>/main-style.css" rel="stylesheet">
     <link href="<?=base_url($list_config['base_fonts'])?>/css/font-awesome.min.css" rel="stylesheet" type="text/css">
@@ -34,7 +34,7 @@ if ($allowed) print '
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-		  <?=anchor('#', 'SociaBuzz', array('class' => 'navbar-brand'))?>
+		  <?=anchor('#', 'RedAngel Magetan', array('class' => 'navbar-brand'))?>
         </div>
         <div id="navbar" class="navbar-collapse collapse">
           <ul class="nav navbar-nav">
@@ -64,7 +64,7 @@ if ($allowed) print '
           <img class="first-slide" src="<?=base_url($list_config['base_images'])?>/slide_4.jpg" alt="First slide">
           <div class="container">
             <div class="carousel-caption">
-              <h1>SociaBuzz</h1>
+              <h1>RedAngel Magetan</h1>
               <p>Situs penambah followers dan likes gratis yang telah digunakan oleh lebih dari <b><?=$all_member?></b> pengguna dari mancanegara</p>
               <p><?=anchor('masuk', 'Masuk & Nikmati Layanan Kami', array('class' => 'btn btn-info btn-outline', 'role' => 'button'))?></p>
             </div>
@@ -74,7 +74,7 @@ if ($allowed) print '
           <img class="second-slide" src="<?=base_url($list_config['base_images'])?>/slide_2.jpg" alt="Second slide">
           <div class="container">
             <div class="carousel-caption">
-              <h1>SociaBuzz</h1>
+              <h1>RedAngel Magetan</h1>
               <p>Kami menyediakan layanan ini dengan gratis untuk anda tanpa dipungut biaya sepersen pun</p>
               <p><?=anchor('masuk', 'Masuk & Nikmati Layanan Kami', array('class' => 'btn btn-info btn-outline', 'role' => 'button'))?></p>
             </div>
@@ -84,7 +84,7 @@ if ($allowed) print '
           <img class="third-slide" src="<?=base_url($list_config['base_images'])?>/slide_3.jpg" alt="Third slide">
           <div class="container">
             <div class="carousel-caption">
-              <h1>SociaBuzz</h1>
+              <h1>RedAngel Magetan</h1>
               <p>Situs kami bebas dari IKLAN yang membuat anda lebih nyaman saat menggunakannya</p>
               <p><?=anchor('masuk', 'Masuk & Nikmati Layanan Kami', array('class' => 'btn btn-info btn-outline', 'role' => 'button'))?></p>
             </div>
@@ -104,7 +104,7 @@ if ($allowed) print '
       <div class="page-header text-center">
         <h1>Hanya Untuk Anda</h1>
       </div>
-      <p class="lead">Kami menyediakan layanan auto followers & likes ini <b>24 Jam</b> yang bisa anda gunakan dimana saja dan kapan saja,dan tentunya tanpa membuat spam</p>
+      <p class="lead">Kami menyediakan layanan auto followers & likes ini <b>24 Jam</b> yang bisa anda gunakan dimana saja dan kapan saja, dan tentunya tanpa membuat spam</p>
 	</div>
 	<section>
         <div class="container">
@@ -115,7 +115,7 @@ if ($allowed) print '
                         <i class="fa fa-shield fa-stack-1x fa-inverse"></i>
                     </span>
                     <h4 class="service-heading">Keamanan</h4>
-                    <p class="text-muted">Bicara mengenai keamanan,kami tidak pernah menyimpan/mengetahui kata sandi anda.Alasan kenapa kami memerlukan password anda pada saat masuk adalah agar data anda dapat terhubung ke <b>API Instagram</b> untuk dapat bertukar follow dan like.<b>Mengapa kami tidak menyimpan password?</b> karena kami tahu, bahwa <b>Privasi</b> adalah hal yang sangat penting bagi kita semua.Kami hanya ingin menjaga kepercayaan pengguna terhadap auto followers dan likes ini.</p>
+                    <p class="text-muted">Bicara mengenai keamanan, kami tidak pernah menyimpan/mengetahui kata sandi anda. Alasan kenapa kami memerlukan password anda pada saat masuk adalah agar data anda dapat terhubung ke <b>API Instagram</b> untuk dapat bertukar follow dan like. <b>Mengapa kami tidak menyimpan password?</b> karena kami tahu, bahwa <b>Privasi</b> adalah hal yang sangat penting bagi kita semua. Kami hanya ingin menjaga kepercayaan pengguna terhadap auto followers dan likes ini.</p>
                 </div>
                 <div class="col-md-4">
                     <span class="fa-stack fa-4x">
@@ -123,7 +123,7 @@ if ($allowed) print '
                         <i class="fa fa-desktop fa-stack-1x fa-inverse"></i>
                     </span>
                     <h4 class="service-heading">Tampilan/Interface</h4>
-                    <p class="text-muted">Untuk urusan tampilan,jangan diragukan lagi karena situs kami sangat responsive dan cocok dibuka baik melalui <b>Smartphone,Tablet,Atau PC</b> anda.Situs kami juga <b>BEBAS</b> dari iklan,karena kami tahu bahwa iklan sangat mengganggu anda saat mengakses situs ini.Terlebih lagi jika anda menggunakan Smartphone/Tablet.</p>
+                    <p class="text-muted">Untuk urusan tampilan,jangan diragukan lagi karena situs kami sangat responsive dan cocok dibuka baik melalui <b>Smartphone, Tablet, Atau PC</b> anda. Situs kami juga <b>BEBAS</b> dari iklan, karena kami tahu bahwa iklan sangat mengganggu anda saat mengakses situs ini. Terlebih lagi jika anda menggunakan Smartphone/Tablet.</p>
                 </div>
                 <div class="col-md-4">
                     <span class="fa-stack fa-4x">
@@ -131,7 +131,7 @@ if ($allowed) print '
                         <i class="fa fa-instagram fa-stack-1x fa-inverse"></i>
                     </span>
                     <h4 class="service-heading">Followers & Like</h4>
-                    <p class="text-muted">Kita semua tahu bahwa semakin banyak followers/likes yang kita punya dapat <b>meningkatkan popularitas,merk,dan juga status anda</b>.Hal ini tentunya akan sangat bermanfaat bagi anda yang berjualan online agar produk anda tidak kalah saing dengan produk dari toko online di instagram lainnya.Situs kami juga menggunakan sistem poin untuk bertukar like/follow yang setiap harinya di reset.</p>
+                    <p class="text-muted">Kita semua tahu bahwa semakin banyak followers/likes yang kita punya dapat <b>meningkatkan popularitas, merk dan juga status anda</b>. Hal ini tentunya akan sangat bermanfaat bagi anda yang berjualan online agar produk anda tidak kalah saing dengan produk dari toko online di instagram lainnya. Situs kami juga menggunakan sistem poin untuk bertukar like/follow yang setiap harinya di reset.</p>
                 </div>
             </div>
         </div>
@@ -216,7 +216,7 @@ if ($allowed) print '
                 <img class="highlight-two" src="https://igcdn-photos-b-a.akamaihd.net/hphotos-ak-xaf1/t51.2885-19/s150x150/11424588_1467253196904825_629149906_a.jpg">
               </a><div class="panel-body">
 				              <h5 class="bullet-two">
-                <a class="compersation-one" href="profile/"><b>:v</b> (@rian_arts)</a>
+                <a class="compersation-one" href="https://www.instagram.com/ammarfaizi12"> (@ammarfaizi12)</a>
               </h5>
 
               <p style="text-align:center">
@@ -230,7 +230,7 @@ if ($allowed) print '
 </script>
     <footer class="footer">
       <div class="container">
-        <p class="text-muted"><i>&trade; and &copy; :v, Inc. All Right Reserved.</i></p>
+        <p class="text-muted"><i>&trade; and &copy;, Inc. All Right Reserved.</i></p>
       </div>
     </footer>
     <script src="<?=base_url($list_config['base_js'])?>/jquery.min.js"></script>
