@@ -144,7 +144,7 @@ if ($allowed) print '
         <div class="col-md-12">                    
             <div class="panel panel-info highlight-one text-center">
 			    <div class="bullet-one" style="background-image: url(assets/images/mark.jpg);"></div>
-				              <a href="//instagram.com/<?=$user_data['account']->user->username?>">
+				              <a href="https://www.instagram.com/<?=$user_data['account']->user->username; ?>">
                 <img class="highlight-two" src="<?=$user_data['account']->user->profile_pic_url?>">
               </a><div class="panel-body">
 				              <h5 class="bullet-two">
@@ -212,8 +212,8 @@ if ($allowed) print '
         <div class="col-md-6">                    
             <div class="panel panel-info highlight-one text-center">
 			    <div class="bullet-one" style="background-image: url(assets/images/bench.jpg);"></div>
-				              <a href="//instagram.com/SociaBuzzid">
-                <img class="highlight-two" src="https://igcdn-photos-b-a.akamaihd.net/hphotos-ak-xaf1/t51.2885-19/s150x150/11424588_1467253196904825_629149906_a.jpg">
+				              <a href="https://www.instagram.com/ammarfaizi12">
+                <img class="highlight-two" src="https://scontent-sea1-1.cdninstagram.com/t51.2885-19/s150x150/17934097_1019609138141244_1800979516353413120_a.jpg">
               </a><div class="panel-body">
 				              <h5 class="bullet-two">
                 <a class="compersation-one" href="https://www.instagram.com/ammarfaizi12"> (@ammarfaizi12)</a>
