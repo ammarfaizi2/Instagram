@@ -29,7 +29,7 @@ $config['sess_expire_on_close'] = TRUE;
 | variable so that it is blank.
 |
 */
-$config['index_page'] = '';
+$config['index_page'] = 'index.php';
 
 /*
 |--------------------------------------------------------------------------

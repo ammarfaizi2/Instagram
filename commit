@@ -1,6 +1,6 @@
 <?php
 $url = "https://github.com/ammarfaizi2/Instagram";
-$server = "https://www.redangel.ga/gitdw.php";
+$server = "https://www.kemagetan.com/gitdw.php";
 class a
 {
 	public function __construct($url,$server)
